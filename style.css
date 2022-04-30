@@ -1,3 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Corinthia&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background: black;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+header, main, footer {
+  width: 70%;
+  margin-left: 15%;
+  background-color: #F2E7EB;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  top: 0;
+}
+
+header a {
+  padding: 2rem;
+  color: #483B3B;
+  font-family: Comfortaa;
+  font-size: 1.5em;
+}
+
+header a:hover {
+  color: #5F0707;
+  font-size: 1.55em;
+  transition: .5s;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav li {
+  display: inline-block;
+}
+
+h1 {
+  margin: auto;
+  padding-top: 2%;
+  padding-right: 2%;
+  font-family: 'Corinthia', cursive;
+  font-size: 8.7em;
+  font-weight: 100;
+  color: #F1E9EA;
+  text-align: end;
+}
+
+.section__about {
+  background-color: #5F0707;
 }
